@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0d5f982-ce59-4974-92cb-3a60ee743ad4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/src/main/java/com/shaun/todo/application/controller/api/TaskControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/src/main/java/com/shaun/todo/application/controller/contract/TaskContractApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/src/main/java/com/shaun/todo/application/controller/dto/request/CreateTaskRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/src/main/java/com/shaun/todo/application/controller/dto/request/UpdateTaskRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-controller/src/main/java/com/shaun/todo/application/controller/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-entity/src/main/java/com/shaun/todo/application/task/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-entity/src/main/java/com/shaun/todo/application/task/entity/embedded/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-repository/src/main/java/com/shaun/todo/application/task/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/dto/CreateTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/dto/MainResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/dto/TaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/dto/TaskResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/dto/UpdateTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/exception/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-core/todo-application-task/todo-application-task-service/src/main/java/com/shaun/todo/application/task/service/exception/NotAcceptableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-deploy/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-deploy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-deploy/src/main/java/com/shaun/todo/application/deploy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-application-deploy/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2WcJlEmY5xKw16iTnNVuHhOYqV7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Todo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="todo-application-deploy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shaun.todo.application.deploy.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d5f982-ce59-4974-92cb-3a60ee743ad4" name="Changes" comment="" />
+      <created>1697026085856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697026085856</updated>
+      <workItem from="1697026086899" duration="23107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

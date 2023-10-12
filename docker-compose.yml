@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  mysqldb:
+    platform: linux/x86_64
+    image: "mysql:latest"
+    restart: on-failure
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: trias
+      MYSQL_ROOT_PASSWORD: P@ssw0rd
+
+  server:
+    build: ./todo-application-deploy
+    restart: on-failure
+    ports:
+      - "9091:9091"
+    environment:
+      - DB=mysqldb
+      - DB_DATABASE=trias
+      - DB_USER=root
+      - DB_PASSWORD=P@ssw0rd
+    depends_on:
+      - mysqldb
