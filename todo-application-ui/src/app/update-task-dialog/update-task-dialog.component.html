@@ -1,0 +1,26 @@
+<div
+  class="mat-elevation-z24 rounded shadow-3xl bg-gradient-to-tr from-blue-100 to-fuchsia-200 text-black shadow-black w-96">
+  <h2 mat-dialog-title>Update Task</h2>
+  <div class="mx-11">
+    <form class="flex flex-col" [formGroup]="updateTaskForm" (ngSubmit)="updateTask()">
+      <mat-form-field>
+        <mat-label>Task</mat-label>
+        <input formControlName="name" matInput>
+        <mat-error *ngIf="updateTaskForm.get('name')?.getError('required')">Required</mat-error>
+      </mat-form-field>
+      <div class="bg-gray-50 border-solid py-2 border-b-black px-4 rounded-t-sm mt-5" style="border-bottom-width: 1px">
+        <div>Status</div>
+        <mat-slide-toggle class="mt-1" formControlName="status" color="primary" [checked]="data.status==='PENDING'"
+                          (change)="onChange($event)">{{data.status | titlecase}}</mat-slide-toggle>
+      </div>
+      <div class="flex justify-center pb-4 mt-4">
+        <mat-dialog-actions>
+          <button class="mat-primary" type="submit"
+                  [disabled]="!buttonState" mat-raised-button>Update
+          </button>
+          <button mat-raised-button mat-dialog-close>Cancel</button>
+        </mat-dialog-actions>
+      </div>
+    </form>
+  </div>
+</div>

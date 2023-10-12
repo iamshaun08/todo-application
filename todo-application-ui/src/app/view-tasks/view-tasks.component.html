@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<div class="flex justify-center w-full">
+    <div class="flex w-3/4 mt-8">
+        <table mat-table [dataSource]="tasks" class="mat-elevation-z8">
+            <ng-container matColumnDef="status">
+                <th mat-header-cell *matHeaderCellDef> Status</th>
+                <td mat-cell *matCellDef="let task"><span class="dot" [ngClass]="{
+        'dot-red' : task.status == 'PENDING',
+        'dot-green' : task.status == 'COMPLETED'}"></span></td>
+            </ng-container>
+
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Name</th>
+                <td mat-cell *matCellDef="let task"> {{task.name}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="creationDate">
+                <th mat-header-cell *matHeaderCellDef> Date added</th>
+                <td mat-cell *matCellDef="let task"> {{task.creationDate}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="update">
+                <th mat-header-cell *matHeaderCellDef> Update</th>
+                <td mat-cell *matCellDef="let task">
+                    <button class="mat-primary" (click)="updateTask(task.uuid, task.name, task.status)" mat-raised-button>Update</button>
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="delete">
+                <th mat-header-cell *matHeaderCellDef> Details</th>
+                <td mat-cell *matCellDef="let task">
+                    <button class="mat-primary" (click)="deleteTask(task.uuid)" mat-raised-button>Delete</button>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+        </table>
+    </div>
+</div>

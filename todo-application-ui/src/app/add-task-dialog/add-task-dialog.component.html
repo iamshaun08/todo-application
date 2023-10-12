@@ -1,0 +1,20 @@
+<div class="mat-elevation-z24 rounded shadow-3xl bg-gradient-to-tr from-blue-100 to-fuchsia-200 text-black shadow-black w-80">
+    <h2 mat-dialog-title>Add Task</h2>
+    <div class="flex justify-center">
+        <form class="flex flex-col" [formGroup]="addTaskForm" (ngSubmit)="addTask()">
+            <mat-form-field>
+                <mat-label>Task name</mat-label>
+                <input formControlName="name" matInput>
+                <mat-error *ngIf="addTaskForm.get('name')?.getError('required')">Required</mat-error>
+            </mat-form-field>
+            <div class="flex justify-center mb-5">
+                <mat-dialog-actions>
+                    <button class="mat-primary" type="submit" [disabled]="!this.addTaskForm.valid" mat-raised-button>
+                        Add
+                    </button>
+                    <button mat-raised-button mat-dialog-close>Cancel</button>
+                </mat-dialog-actions>
+            </div>
+        </form>
+    </div>
+</div>
